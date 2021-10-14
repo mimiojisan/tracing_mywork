@@ -1,0 +1,160 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  color: #24292e;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+img {
+  width: 100%;
+}
+
+/* 共通 */
+.container {
+  font-size: 0.9rem;
+  max-width: 960px;
+  margin: 0 auto 130px auto;
+  padding: 0 4%;
+}
+.maintitle {
+  line-height: 1px;
+}
+.maintitle a {
+  display: block;
+}
+.subtitle {
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 0 0 65px 0;
+}
+
+/*  header style */
+#header {
+  max-width: 960px;
+  width: 100%;
+  height: 270px;
+  margin: 0 auto;
+  padding: 0 4%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.gnav {
+  padding: 10px 0;
+  display: flex;
+}
+.gnav li {
+  font-size: 0.9rem;
+  margin: 0 0 0 30px;
+}
+.gnav li a {
+  color: #24292e;
+}
+.gnav li a:hover {
+  opacity: 0.7;
+}
+.gnav li img.icon {
+  width: 20px;
+}
+
+/* main-top style */
+.top_image {
+  margin: 0 0 80px 0;
+}
+.top_image img {
+  max-width: 1920px;
+  width: 100%;
+  height: 420px;
+  object-fit: cover;
+}
+
+/* main-about style */
+#about ul {
+  margin: 0 0 30px 0;
+}
+#about ul li:first-child {
+  margin: 0 0 30px 0;
+}
+
+/* main-works style */
+#works ul {
+  margin: 0 0 50px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#works ul li {
+  width: 31%;
+  margin: 0 0 23px 0;
+}
+
+/* main-news style */
+#news dl {
+  border-top: 1px solid #c8c8c8;
+  margin: 0 0 20px 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+#news dl dt {
+  width: 20%;
+  border-bottom: 1px solid #c8c8c8;
+  padding: 15px;
+}
+#news dl dd {
+  width: 80%;
+  border-bottom: 1px solid #c8c8c8;
+  padding: 15px;
+}
+
+/* main-contact style */
+#contact dl {
+  margin: 0 0 20px 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+#contact dl dt {
+  width: 15%;
+}
+#contact dl dd {
+  width: 85%;
+  margin: 0 0 10px 0;
+}
+#contact dl dd input,
+#contact dl dd textarea {
+  width: 100%;
+  border: 1px solid #c8c8c8;
+  padding: 10px;
+}
+#contact dl dd textarea {
+  height: 10rem;
+}
+#contact .button {
+  text-align: center;
+}
+#contact .button input {
+  width: 200px;
+  color: #fff;
+  background-color: #24292e;
+  border: 1px solid #24292e;
+  padding: 15px 0;
+}
+#contact .button input:hover {
+  color: #24292e;
+  background: #fff;
+}
+
+/* footer style */
+#footer {
+  font-size: 0.5rem;
+  color: #fff;
+  background-color: #24292e;
+  text-align: center;
+  padding: 10px 20px;
+}

@@ -1,0 +1,59 @@
+@media screen and (max-width: 600px) {
+  /* 共通 */
+  .container {
+    margin: 0 0 70px 0;
+  }
+  .maintitle {
+    margin: 20px 0 0 0;
+  }
+  .subtitle {
+    margin: 0 0 40px 0;
+  }
+
+  /* header */
+  #header {
+    max-width: 100%;
+    height: auto;
+    flex-direction: column;
+  }
+  #header .gnav li {
+    font-size: 0.8rem;
+    margin: 0 0 0 20px;
+  }
+  #header .gnav li:first-child {
+    margin-left: 0;
+  }
+
+  /* works */
+  #works ul {
+    flex-direction: column;
+  }
+  #works ul li {
+    width: 100%;
+  }
+
+  /* news */
+  #news dl {
+    flex-direction: column;
+  }
+  #news dl dt {
+    width: 100%;
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+  #news dl dd {
+    width: 100%;
+    padding-top: 0;
+  }
+
+  /* contact */
+  #contact dl {
+    flex-direction: column;
+  }
+  #contact dl dt {
+    width: 100%;
+  }
+  #contact dl dd {
+    width: 100%;
+  }
+}
